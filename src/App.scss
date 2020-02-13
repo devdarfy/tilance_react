@@ -1,0 +1,412 @@
+body {
+  margin:0px;
+  padding:0px;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  padding: 35px 0 35px 0px;
+  opacity: .96;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  background-color: rgb(21, 148, 136);
+  color:#fff;
+  /* background-color:#17968A; */
+  /* background-color:#44cbb4; */
+}
+.header {
+  .scrolled {
+    background-color:#44cbb4 !important;
+    transition: background-color 200ms linear;
+  }
+  .navbar-title {
+    font-weight: 700;
+    font-size:25px;
+    letter-spacing:1px;
+  
+    &:hover {
+    text-shadow: 0px 0px 5px white !important;
+    transition: 0.2s ease-in;
+    }
+  }
+  a {
+    color:#fff;
+    text-decoration:none;
+  }
+  .navbar-menu {
+    margin-top:5px;
+
+    a {
+      margin-right:20px;
+      font-size:13px;
+      letter-spacing:2px;
+
+      &:hover {
+        text-shadpw: 0px 0px 5px white !important;
+        transition:  0.2s ease-in;
+      }
+    }
+
+    img {
+      position:relative;
+      top:2px;
+    }
+  }
+  .language {
+    margin-top:7px;
+  }
+}
+.main {
+  background-color:#06cdc5;
+  color:white;
+  height:600px;
+  background-image: -webkit-radial-gradient(100% 100%,ellipse farthest-side,#55efc4 10%,#00cec9 50%,#4acab1 110%);
+  background-image: radial-gradient(ellipse farthest-side at 100% 100%,#55efc4 10%,#00cec9 50%,#4acab1 110%);
+
+  form {
+    .security {
+      height:5px;
+      letter-spacing:1px;
+      font-weight: 600;
+
+      a {
+        color:#fff;
+        text-decoration:none;
+        position:relative;
+        bottom:5px;
+        font-size:14px;
+      }
+
+      input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        box-sizing: border-box;
+      }
+
+      &:hover {
+        text-decoration:underline;
+      }
+    } // Security CLass Bitiş
+    input[placeholder="E-Posta Adresiniz"]{
+      padding-left: 50px;
+      font-size:17px;
+      margin-top: 13px;
+    }
+    input[type="email"] {
+      padding: 25px 40px 25px 40px;
+      border-bottom-left-radius:30px;
+      border-top-left-radius:30px;
+      width: 400px;
+      border:1px solid #16968a;
+    }
+    input[type="submit"] {
+      border:none;
+      outline:none;
+      margin-left: -7px;
+      position:realtive;
+      width: 113px;
+      height:72px;
+      border-radius: 0px 60px 60px 0px;
+      color:white;
+      background:#39bfa2;
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+      font-size: 13pt;
+
+      &:hover {
+        outline:none;
+        border:none;
+        background-color: #fff;
+        color:#39bfa2;
+      }
+    } 
+  } // Form  Bitiş 
+  h1 {
+    font-weight: 700;
+    font-size:50px;
+    text-shadow: 1px 2px rgba(0,0,0,0.5);
+    margin:100px 0px 0px 0px;
+    overflow: hidden;
+    letter-spacing: 1px;
+  }
+  p {
+    display: inline-block;
+    font-size:18px;
+    font-weight:400;
+    color:#fff;
+    margin: 0px 0px 50px 0px;
+    letter-spacing: 1px;
+  }
+} // Main Class Bitiş
+.clouds {
+  position:absolute;
+  z-index:999;
+  bottom:220px;
+  width:100%;
+  display:block;
+}
+.about-tilance {
+  position:relative;
+  z-index: 999;
+  box-sizing:border-box;
+
+  max-width:920px;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #707070;
+}
+.about-tilance-title {
+  position:relative;
+  z-index: 999;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size:1.75rem;
+  color:#06cdc5;
+}
+.content-a {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #707070;
+
+  h4 {
+    font-size:24px;
+    font-weight:700;
+    color:#4bcca7;
+  }
+}
+.contenta  {
+  img {
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+}
+.content-b {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #707070;
+  margin-left:15px;
+
+  h4 {
+    font-size:24px;
+    font-weight:700;
+    color:#4bcca7;
+  }
+}
+.contentb {
+  img {
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+}
+.content-c {
+  font-size: 14px;
+  line-height:1.5;
+  letter-spacing: 1px;
+  color: #707070;
+
+  h4 {
+    font-size:24px;
+    font-weight:700;
+    color:#4bcca7;
+  }
+}
+.contentc {
+  img {
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+}
+.footer {
+  background-color:#5BEAD1;
+  margin-top:50px;
+  color:#fff;
+  letter-spacing: 1px;
+  font-weight: 700;
+
+  a {
+    color:#fff;
+    text-decoration:none;
+    letter-spacing: 2px;
+  }
+}
+.footer-text {
+  padding-top:25px;
+}
+.cursor {
+  position:relative;
+
+  i {
+    position:absolute;
+    width: 1px;
+    height:46%;
+    background-color:gray;
+    left:215px;
+    top: 44%;
+    animation-name: blink;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    opacity: 1;
+  }
+
+  input {
+    &:focus + i {
+      display:none;
+    }
+  }
+}
+@keyframes blink {
+from { opacity: 1; }
+to { opacity: 0; }
+}
+.bottom {
+  form {
+    .security {
+      height:5px;
+      letter-spacing: 1px;
+      font-weight: 600;
+
+      a {
+        color:black;
+        text-decoration:none;
+        position:relative;
+        bottom:5px;
+        font-size:14px;
+      }
+
+      input[type="checkbox"] {
+        width:20px;
+        height:20px;
+        box-sizing:border-box;
+      }
+
+      &:hover {
+        text-decoration:underline;
+      }
+    }
+    input[type="email"] {
+        padding:25px 40px 25px 40px;
+        border-bottom-left-radius:30px;
+        border-top-left-radius:30px;
+        width:400px;
+        border:1px solid #16968A;
+    }
+    input[type="submit"] {
+      border: none;
+      outline:none;
+      margin-left: -7px;
+      position:relative;
+      width: 113px;
+      height: 72px;
+      color: white;
+      background: #39bfa2;
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+      font-size: 13pt;
+
+      &:hover {
+        outline:none;
+        border:2px solid #39bfa2;
+        background-color:#fff;
+        color:#39bfa2;
+      }
+    }
+    input[placeholder="E-Posta Adresiniz"]{
+      padding-left: 50px;
+      font-size:17px;
+      margin-top: 13px;
+    }
+  } // Bottom Form Bitiş
+  p {
+    font-size: 25px;
+    font-weight: 700;
+    color: #44ccb4;
+    margin: 0 0 50px 0px;
+    letter-spacing: 1px;
+  }
+} // Bottom CLass Bitiş
+@media screen and (max-width:605px) {
+  .main {
+    form {
+      input[type="submit"] {
+        border: none;
+        outline:none;
+        position:relative;
+        top:25px;
+        width: 113px;
+        height: 72px;
+        border-radius: 0px 0px 0px 0px;
+        color: white;
+        background: #39bfa2;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+        font-size: 13pt;
+      
+        &:hover {
+          outline:none;
+          border:none;
+          background-color:#fff;
+          color:#39bfa2;
+          border:2px solid #39bfa2;
+        }
+      }
+      input[type="email"] {
+        border-bottom-right-radius:30px;
+        border-top-right-radius:30px;
+      }
+    }
+  }
+  .bottom {
+    form {
+      input[type="submit"] {
+        border:none;
+        outline:none;
+        position:relative;
+        top:25px;
+        width:113px;
+        height:72px;
+        border-radius:0px 0px 0px 0px;
+        color:white;
+        background-color:#39bfa2;
+        box-shadow:0px 0px 5px 0px rgba(0,0,0,0.35);
+        font-size: 13pt;
+      
+        &:hover {
+          outline:none;
+          border:none;
+          background-color:#fff;
+          color:#39bfa2;
+          border:2px solid #39bfa2;
+        }
+      }
+      input[type="email"] {
+        border-bottom-right-radius:0px;
+        border-bottom-left-radius:0px;
+        border-top-left-radius:0px;
+        border-top-right-radius:0px;
+      }
+    }
+  }
+}
+@media screen and (max-width:1030px) {
+  .content-a {
+    p {
+      max-width:none;
+      margin-bottom:50px;
+    }
+  }
+  .content-b {
+    p {
+      max-width: none;
+      margin-bottom: 50px;
+    }
+  }
+  .content-c {
+    p {
+      max-width:none;
+      margin-bottom:50px;
+    }
+  }
+}
